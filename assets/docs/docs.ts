@@ -70,20 +70,20 @@ export const timeline: Timeline[] = [
     date: '22.12.2017',
     title: 'Udział w wigilii szkolnej',
     class: 'history__timeline-text timeline-tenth',
-    text: 'Niestety dany występ nie został zapisany w archiwach strony internetowej szkołu. Z tego względu nie ma tu nic.',
-    src: '',
+    text: 'Kojszowiacy i Kojsowiocki żegnają Stary Rok przedstawieniem Wilijo u Kliscokow opartym na motywach tradycji i kultury regionu Górali Kliszczackich wg scenariusza Wiesławy Trybała. Kolędując Narodzonemu zapraszają do szkoły w dniu 07.01.2018r. na drugą odsłonę spektaklu przy dźwiękach kapeli i śpiewie kolęd i pastorałek. Przedstawienie zostało przygotowane w ramach  projektu  ŚPIWANIE I GRANIE TO UCIECHA ŚWIATA  dofinansowanego przez  Polsko -Amerykańską Fundację Wolności realizowaną przez Akademię rozwoju Filantropii w Polsce i Babiogórskie Stowarzyszenie Zielona Linia z siedzibą w Stryszawie.',
+    src: 'assets/img/22.12.2017.jpg',
   },
 ];
 export const timetable: Timetable[] = [
   {
     title: 'Najbliższy planowany koncert',
-    date: '07.03.2024 r.',
-    content: 'Święto Patrona Szkoły w Szkole Podstawowej w Kojszówce',
+    date: 'Brak',
+    content: '',
   },
   {
     title: 'Ostatni grany koncert',
-    date: '19.01.2024 r.',
-    content: 'Przeegląd Zepsołów Kolędniczych w Makowie Podhalańskim',
+    date: '07.03.2024 r.',
+    content: 'Święto Patrona Szkoły w Szkole Podstawowej w Kojszówce',
   },
 ];
 export const achievements: Achievement[] = [
@@ -388,7 +388,19 @@ export const news: News[] = [
     srcDetails: [
       {
         id: 1,
-        src: 'assets/img/08.03.2024.jpg',
+        src: 'assets/img/08.03.2024.1.jpg',
+      },
+      {
+        id: 2,
+        src: 'assets/img/08.03.2024.2.jpg',
+      },
+      {
+        id: 3,
+        src: 'assets/img/08.03.2024.3.jpg',
+      },
+      {
+        id: 4,
+        src: 'assets/img/08.03.2024.4.jpg',
       },
     ],
     contentDetails:
@@ -398,22 +410,3 @@ export const news: News[] = [
     link: 'https://www.facebook.com/permalink.php?story_fbid=pfbid0pXM2333xuKWQuXZVSm4M8h7LgCL59wACd2Eu8bKezVjGi8qnQAvc8iD5xdg6FKK3l&id=100063025850577',
   },
 ];
-// export const newsTest: NewsTest[] = [
-//   {
-//     id: 1,
-//     src: [
-//       {
-//         id: 1,
-//         src: 'test',
-//       },
-//       {
-//         id: 2,
-//         src: 'test',
-//       },
-//     ],
-//     title: 'string',
-//     content: '',
-//     link: '',
-//     detailsText: '',
-//   },
-// ];
