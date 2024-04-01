@@ -1,4 +1,9 @@
-import { Achievement, News, Timeline, Timetable } from "src/app/modules/core/models/docs.model";
+import {
+  Achievement,
+  News,
+  Timeline,
+  Timetable,
+} from 'src/app/modules/core/models/docs.model';
 
 export const timeline: Timeline[] = [
   {
@@ -251,10 +256,10 @@ export const news: News[] = [
     title: '03.12.2023 r',
     src: 'assets/img/3.12.2023.jpg',
     srcDetails: [
-      { id: 1, src: 'assets/img/3.12.2023.1.jpg' },
-      { id: 2, src: 'assets/img/3.12.2023.2.jpg' },
-      { id: 3, src: 'assets/img/3.12.2023.3.jpg' },
-      { id: 4, src: 'assets/img/3.12.2023.4.jpg' },
+      { id: 1, src: 'assets/img/03.12.2023.1.jpg' },
+      { id: 2, src: 'assets/img/03.12.2023.2.jpg' },
+      { id: 3, src: 'assets/img/03.12.2023.3.jpg' },
+      { id: 4, src: 'assets/img/03.12.2023.4.jpg' },
     ],
 
     contentDetails:
@@ -411,30 +416,30 @@ export const news: News[] = [
   },
   {
     id: 16,
-    title: "17.03.2024 r.",
-    src: "assets/img/17.03.2024.jpeg",
+    title: '17.03.2024 r.',
+    src: 'assets/img/17.03.2024.jpeg',
     srcDetails: [
       {
         id: 1,
-        src: "assets/img/17.03.2024.1.jpeg",
+        src: 'assets/img/17.03.2024.1.jpeg',
       },
       {
         id: 2,
-        src: "assets/img/17.03.2024.2.jpeg",
+        src: 'assets/img/17.03.2024.2.jpeg',
       },
       {
         id: 3,
-        src: "assets/img/17.03.2024.3.jpeg",
+        src: 'assets/img/17.03.2024.3.jpeg',
       },
       {
         id: 4,
-        src: "assets/img/17.03.2024.4.jpeg",
+        src: 'assets/img/17.03.2024.4.jpeg',
       },
     ],
     contentDetails:
-      "17 marca, W słoneczne, niedzielne popołudnie Kojsowiocki zaśpiewały na Jarmarku Wielkanocnym na makowskim rynku",
+      '17 marca, W słoneczne, niedzielne popołudnie Kojsowiocki zaśpiewały na Jarmarku Wielkanocnym na makowskim rynku',
     content:
-      "17 marca, W słoneczne, niedzielne popołudnie Kojsowiocki zaśpiewały na Jarmarku Wielkanocnym na makowskim rynku",
-    link: "https://www.facebook.com/permalink.php?story_fbid=pfbid0yUm9iJcscm5uPtnmSFb4YNb4kABGY1SFEJgxjAkaqsJYY75zJ2TzJqd4n3P1Dyupl&id=100063025850577",
+      '17 marca, W słoneczne, niedzielne popołudnie Kojsowiocki zaśpiewały na Jarmarku Wielkanocnym na makowskim rynku',
+    link: 'https://www.facebook.com/permalink.php?story_fbid=pfbid0yUm9iJcscm5uPtnmSFb4YNb4kABGY1SFEJgxjAkaqsJYY75zJ2TzJqd4n3P1Dyupl&id=100063025850577',
   },
 ];
